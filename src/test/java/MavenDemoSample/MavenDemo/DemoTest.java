@@ -18,7 +18,6 @@ public class DemoTest {
 		driver.get("https://www.google.com/");
 		Thread.sleep(2000);
 		System.out.println(driver.getTitle());
-		//Comment
 		driver.quit();
 		
 	}
